@@ -12,3 +12,5 @@ class Settings(BaseSettings):
 @lru_cache()
 def get_settings():
     return Settings()
+
+#this must be in the new branch
